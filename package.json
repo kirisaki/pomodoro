@@ -1,0 +1,34 @@
+{
+  "name": "pomodoro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "webpack": "webpack",
+      "electron": "./node_modules/.bin/electron dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirisaki/pomodoro.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kirisaki/pomodoro/issues"
+  },
+  "homepage": "https://github.com/kirisaki/pomodoro#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.4.2",
+    "css-loader": "^0.28.10",
+    "electron": "^1.8.2",
+    "elm": "^0.18.0",
+    "elm-webpack-loader": "^4.4.0",
+    "file-loader": "^1.1.10",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9",
+    "webpack-merge": "^4.1.2"
+  }
+}
